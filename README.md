@@ -18,7 +18,7 @@ Rather than embed TRMTKImageView, it is set up outside the NSScrollView hierarch
 
 The test harness displays a CIImage that's 30k ✕ 30k; on a retina display, with the harness's 32✕ magnification, that's 1,920,000 pixels on each side, for 3,686,400,000,000 potential pixels!
 
-The harness shows some lag when animating a zoom at near the minimum scale, but I'm guessing that's due to the work the Core Image CIAffineTile filter is doing to generate the number of tiles to in the original 30k ✕ 30k image. I would suggest using an [image pyramid](https://en.wikipedia.org/wiki/Pyramid_(image_processing)) if extreme in scales are needed.
+The harness shows some lag when animating a zoom at near the minimum scale, but I'm guessing that's due to the work the Core Image CIAffineTile filter is doing to generate the number of tiles to in the original 30k ✕ 30k image. I would suggest using an [image pyramid](https://en.wikipedia.org/wiki/Pyramid_(image_processing)) if scale extremes are needed.
 
 
 ## Improved resizing
