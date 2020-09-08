@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5288FB0424E5AFA100C2DA48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5288FB0324E5AFA100C2DA48 /* AppDelegate.m */; };
+		5288FB0724E5AFA100C2DA48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5288FB0624E5AFA100C2DA48 /* ViewController.m */; };
+		5288FB0924E5AFA400C2DA48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5288FB0824E5AFA400C2DA48 /* Assets.xcassets */; };
+		5288FB0C24E5AFA400C2DA48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5288FB0A24E5AFA400C2DA48 /* Main.storyboard */; };
+		5288FB0F24E5AFA400C2DA48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5288FB0E24E5AFA400C2DA48 /* main.m */; };
+		5288FB1F24E5B01300C2DA48 /* TRCenteringClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5288FB1A24E5B01300C2DA48 /* TRCenteringClipView.m */; };
+		5288FB2024E5B01300C2DA48 /* TRScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5288FB1B24E5B01300C2DA48 /* TRScrollView.m */; };
+		52B71EE9250698400094DA32 /* TRMTKImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B71EE8250698400094DA32 /* TRMTKImageView.m */; };
+		52B71EED25069A2A0094DA32 /* MetalPerformanceShaders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B71EEA25069A2A0094DA32 /* MetalPerformanceShaders.framework */; };
+		52B71EEE25069A2A0094DA32 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B71EEB25069A2A0094DA32 /* Metal.framework */; };
+		52B71EEF25069A2A0094DA32 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B71EEC25069A2A0094DA32 /* MetalKit.framework */; };
+		52BCE37024E5FBB600F49222 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BCE36F24E5FBB600F49222 /* CoreImage.framework */; };
+		52F1F69E24E5FEDE009C3987 /* mark-basarab-y421kXlUOQk-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52BCE36024E5F95C00F49222 /* mark-basarab-y421kXlUOQk-unsplash.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5288FAFF24E5AFA100C2DA48 /* TRMetalImageViewHarness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRMetalImageViewHarness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5288FB0224E5AFA100C2DA48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5288FB0324E5AFA100C2DA48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5288FB0524E5AFA100C2DA48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5288FB0624E5AFA100C2DA48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5288FB0824E5AFA400C2DA48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5288FB0B24E5AFA400C2DA48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5288FB0D24E5AFA400C2DA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5288FB0E24E5AFA400C2DA48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5288FB1024E5AFA400C2DA48 /* TRMetalImageViewHarness.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TRMetalImageViewHarness.entitlements; sourceTree = "<group>"; };
+		5288FB1724E5B01300C2DA48 /* TRScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRScrollView.h; sourceTree = "<group>"; };
+		5288FB1A24E5B01300C2DA48 /* TRCenteringClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRCenteringClipView.m; sourceTree = "<group>"; };
+		5288FB1B24E5B01300C2DA48 /* TRScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRScrollView.m; sourceTree = "<group>"; };
+		5288FB1E24E5B01300C2DA48 /* TRCenteringClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRCenteringClipView.h; sourceTree = "<group>"; };
+		52B71EE7250698400094DA32 /* TRMTKImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMTKImageView.h; sourceTree = "<group>"; };
+		52B71EE8250698400094DA32 /* TRMTKImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMTKImageView.m; sourceTree = "<group>"; };
+		52B71EEA25069A2A0094DA32 /* MetalPerformanceShaders.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalPerformanceShaders.framework; path = System/Library/Frameworks/MetalPerformanceShaders.framework; sourceTree = SDKROOT; };
+		52B71EEB25069A2A0094DA32 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		52B71EEC25069A2A0094DA32 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		52BCE36024E5F95C00F49222 /* mark-basarab-y421kXlUOQk-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mark-basarab-y421kXlUOQk-unsplash.jpg"; sourceTree = "<group>"; };
+		52BCE36F24E5FBB600F49222 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5288FAFC24E5AFA100C2DA48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B71EED25069A2A0094DA32 /* MetalPerformanceShaders.framework in Frameworks */,
+				52B71EEF25069A2A0094DA32 /* MetalKit.framework in Frameworks */,
+				52B71EEE25069A2A0094DA32 /* Metal.framework in Frameworks */,
+				52BCE37024E5FBB600F49222 /* CoreImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5288FAF624E5AFA100C2DA48 = {
+			isa = PBXGroup;
+			children = (
+				5288FB0124E5AFA100C2DA48 /* TRMetalImageViewHarness */,
+				5288FB0024E5AFA100C2DA48 /* Products */,
+				52BCE36E24E5FBB600F49222 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5288FB0024E5AFA100C2DA48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5288FAFF24E5AFA100C2DA48 /* TRMetalImageViewHarness.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5288FB0124E5AFA100C2DA48 /* TRMetalImageViewHarness */ = {
+			isa = PBXGroup;
+			children = (
+				5288FB0224E5AFA100C2DA48 /* AppDelegate.h */,
+				5288FB0324E5AFA100C2DA48 /* AppDelegate.m */,
+				5288FB0524E5AFA100C2DA48 /* ViewController.h */,
+				5288FB0624E5AFA100C2DA48 /* ViewController.m */,
+				5288FB0824E5AFA400C2DA48 /* Assets.xcassets */,
+				5288FB0A24E5AFA400C2DA48 /* Main.storyboard */,
+				52BCE35E24E5F95C00F49222 /* Data */,
+				5288FB1624E5B01300C2DA48 /* Tinrocket */,
+				5288FB0D24E5AFA400C2DA48 /* Info.plist */,
+				5288FB0E24E5AFA400C2DA48 /* main.m */,
+				5288FB1024E5AFA400C2DA48 /* TRMetalImageViewHarness.entitlements */,
+			);
+			path = TRMetalImageViewHarness;
+			sourceTree = "<group>";
+		};
+		5288FB1624E5B01300C2DA48 /* Tinrocket */ = {
+			isa = PBXGroup;
+			children = (
+				5288FB1E24E5B01300C2DA48 /* TRCenteringClipView.h */,
+				5288FB1A24E5B01300C2DA48 /* TRCenteringClipView.m */,
+				5288FB1724E5B01300C2DA48 /* TRScrollView.h */,
+				5288FB1B24E5B01300C2DA48 /* TRScrollView.m */,
+				52B71EE7250698400094DA32 /* TRMTKImageView.h */,
+				52B71EE8250698400094DA32 /* TRMTKImageView.m */,
+			);
+			path = Tinrocket;
+			sourceTree = "<group>";
+		};
+		52BCE35E24E5F95C00F49222 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				52BCE36024E5F95C00F49222 /* mark-basarab-y421kXlUOQk-unsplash.jpg */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		52BCE36E24E5FBB600F49222 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52B71EEB25069A2A0094DA32 /* Metal.framework */,
+				52B71EEC25069A2A0094DA32 /* MetalKit.framework */,
+				52B71EEA25069A2A0094DA32 /* MetalPerformanceShaders.framework */,
+				52BCE36F24E5FBB600F49222 /* CoreImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5288FAFE24E5AFA100C2DA48 /* TRMetalImageViewHarness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5288FB1324E5AFA400C2DA48 /* Build configuration list for PBXNativeTarget "TRMetalImageViewHarness" */;
+			buildPhases = (
+				5288FAFB24E5AFA100C2DA48 /* Sources */,
+				5288FAFC24E5AFA100C2DA48 /* Frameworks */,
+				5288FAFD24E5AFA100C2DA48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRMetalImageViewHarness;
+			productName = TRMetalImageViewHarness;
+			productReference = 5288FAFF24E5AFA100C2DA48 /* TRMetalImageViewHarness.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5288FAF724E5AFA100C2DA48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Tinrocket, LLC";
+				TargetAttributes = {
+					5288FAFE24E5AFA100C2DA48 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 5288FAFA24E5AFA100C2DA48 /* Build configuration list for PBXProject "TRMetalImageViewHarness" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5288FAF624E5AFA100C2DA48;
+			productRefGroup = 5288FB0024E5AFA100C2DA48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5288FAFE24E5AFA100C2DA48 /* TRMetalImageViewHarness */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5288FAFD24E5AFA100C2DA48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5288FB0924E5AFA400C2DA48 /* Assets.xcassets in Resources */,
+				5288FB0C24E5AFA400C2DA48 /* Main.storyboard in Resources */,
+				52F1F69E24E5FEDE009C3987 /* mark-basarab-y421kXlUOQk-unsplash.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5288FAFB24E5AFA100C2DA48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5288FB1F24E5B01300C2DA48 /* TRCenteringClipView.m in Sources */,
+				5288FB0724E5AFA100C2DA48 /* ViewController.m in Sources */,
+				5288FB0F24E5AFA400C2DA48 /* main.m in Sources */,
+				52B71EE9250698400094DA32 /* TRMTKImageView.m in Sources */,
+				5288FB2024E5B01300C2DA48 /* TRScrollView.m in Sources */,
+				5288FB0424E5AFA100C2DA48 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5288FB0A24E5AFA400C2DA48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5288FB0B24E5AFA400C2DA48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5288FB1124E5AFA400C2DA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTLLINKER_FLAGS = "-cikernel";
+				MTL_COMPILER_FLAGS = "-fcikernel";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5288FB1224E5AFA400C2DA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTLLINKER_FLAGS = "-cikernel";
+				MTL_COMPILER_FLAGS = "-fcikernel";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5288FB1424E5AFA400C2DA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TRMetalImageViewHarness/TRMetalImageViewHarness.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = TRMetalImageViewHarness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinrocket.TRMetalImageViewHarness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5288FB1524E5AFA400C2DA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TRMetalImageViewHarness/TRMetalImageViewHarness.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = TRMetalImageViewHarness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinrocket.TRMetalImageViewHarness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5288FAFA24E5AFA100C2DA48 /* Build configuration list for PBXProject "TRMetalImageViewHarness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5288FB1124E5AFA400C2DA48 /* Debug */,
+				5288FB1224E5AFA400C2DA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5288FB1324E5AFA400C2DA48 /* Build configuration list for PBXNativeTarget "TRMetalImageViewHarness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5288FB1424E5AFA400C2DA48 /* Debug */,
+				5288FB1524E5AFA400C2DA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5288FAF724E5AFA100C2DA48 /* Project object */;
+}
