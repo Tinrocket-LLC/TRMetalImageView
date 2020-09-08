@@ -1,6 +1,6 @@
 # TRMTKImageView
 
-A macOS Metal-based control that displays images. It's like NSImageView, but faster, and can handle extremely large images.
+A macOS Metal-based control that displays images. It's like NSImageView, but faster, and handles extremely large images. Can be used synced up with an NSScrollView.
 
 ![](README/Pan_Zoom_8sec.gif)
 
@@ -9,7 +9,7 @@ This repo contains a harness project that shows how to synchronize TRMTKImageVie
 
 # TRMTKImageView + NSScrollView
 
-While it would be possible to embed the TRMTKImageView (or any MTKView) in an NSScrollView, there are pixel limits to MTKView (16k on macOS) that will limit the maximum size of images you can display.
+While it would be possible to embed the TRMTKImageView (or any MTKView) in an NSScrollView, there are pixel limits to MTKView (16k on macOS) that will limit the maximum size of images you can display and zoom into.
 
 Rather than embed TRMTKImageView, it is set up outside the NSScrollView hierarchy. TRMTKImageView only draws the visible portion of the NSScrollView's .documentView, speeding up Core Image's on-the-fly rendering.
 
