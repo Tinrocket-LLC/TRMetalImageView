@@ -2,7 +2,7 @@
 
 A macOS Metal-based control that displays images. It's like NSImageView, but faster, and can handle extremely large images.
 
-![](README/Pan_Zoom_8sec.png)
+![](README/Pan_Zoom_8sec.gif)
 
 This repo contains a harness project that shows how to synchronize TRMTKImageView with an NSScrollView, allowing for panning and zooming of large images.
 
@@ -21,12 +21,12 @@ The Core Image context created by TRMTKImageView uses some WWDC20 best-practices
 
 TRMTKImageView cleantly handles resizing. Normally, when a Metal-based view is resized, it may show gaps due to display synchronization issues. I've set the background to red to highlight the issue:
 
-![](README/Without_Padding_800.png)
+![](README/Without_Padding_800.gif)
 
 
 Because TRMTKImageView is synchronizing with an NSScrollView, and receiving scroll view bounds changes *after* the fact, I couldn't find a way to keep the Metal and scroll views/layers in sync. Instead, TRMTKImageView can be made about a 100 pt larger than the scrollview, allowing it to essentially prerender the edges before they're resized:
 
-![](README/With_Padding_800.png)
+![](README/With_Padding_800.gif)
 
 
 ## Finally
