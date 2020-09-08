@@ -40,6 +40,15 @@ The Core Image context created by TRMTKImageView uses some WWDC20 best-practices
 To render CIImages at magnifications ≥1.0, TRMTKImageView turns on nearest neighbor sampling. When drawing images at magnifications <1.0, TRMTKImageView uses linear filtering.
 
 
+## References
+
+Along the way, these references/examples were helpful:
+
+- https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/NSScrollViewGuide/Articles/SynchroScroll.html
+
+- https://github.com/trishume/MetalTest
+
+
 ## Finally
 
 The harness contains some NSScrollView-related subclasses: TRScrollView and TRCenteringClipView
