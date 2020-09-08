@@ -35,7 +35,10 @@ The harness contains some NSScrollView-related subclasses: TRScrollView and TRCe
 
 These subclasses allow for friendlier/easier NSScrollView behavior.
 
-John Balestrieri
-Tinrocket, www.tinrocket.com
+Enjoy!
 
-Tinrocket makes original, creative, visual software for desktop and mobile. We combine our passion for art and technology to make apps that people love.
+John Balestrieri, Tinrocket
+
+www.tinrocket.com
+
+*Tinrocket makes original, creative, visual software for desktop and mobile. We combine our passion for art and technology to make apps that people love.*
