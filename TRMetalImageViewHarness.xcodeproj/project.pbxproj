@@ -12,14 +12,14 @@
 		5288FB0924E5AFA400C2DA48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5288FB0824E5AFA400C2DA48 /* Assets.xcassets */; };
 		5288FB0C24E5AFA400C2DA48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5288FB0A24E5AFA400C2DA48 /* Main.storyboard */; };
 		5288FB0F24E5AFA400C2DA48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5288FB0E24E5AFA400C2DA48 /* main.m */; };
-		5288FB1F24E5B01300C2DA48 /* TRCenteringClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5288FB1A24E5B01300C2DA48 /* TRCenteringClipView.m */; };
-		5288FB2024E5B01300C2DA48 /* TRScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5288FB1B24E5B01300C2DA48 /* TRScrollView.m */; };
-		52B71EE9250698400094DA32 /* TRMTKImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B71EE8250698400094DA32 /* TRMTKImageView.m */; };
 		52B71EED25069A2A0094DA32 /* MetalPerformanceShaders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B71EEA25069A2A0094DA32 /* MetalPerformanceShaders.framework */; };
 		52B71EEE25069A2A0094DA32 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B71EEB25069A2A0094DA32 /* Metal.framework */; };
 		52B71EEF25069A2A0094DA32 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B71EEC25069A2A0094DA32 /* MetalKit.framework */; };
 		52BCE37024E5FBB600F49222 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BCE36F24E5FBB600F49222 /* CoreImage.framework */; };
 		52F1F69E24E5FEDE009C3987 /* mark-basarab-y421kXlUOQk-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52BCE36024E5F95C00F49222 /* mark-basarab-y421kXlUOQk-unsplash.jpg */; };
+		52F2253A2C4C0F3700208226 /* TRScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F225342C4C0F3700208226 /* TRScrollView.m */; };
+		52F2253B2C4C0F3700208226 /* TRMTKImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F225352C4C0F3700208226 /* TRMTKImageView.m */; };
+		52F2253C2C4C0F3700208226 /* TRCenteringClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F225362C4C0F3700208226 /* TRCenteringClipView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,17 +33,17 @@
 		5288FB0D24E5AFA400C2DA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5288FB0E24E5AFA400C2DA48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5288FB1024E5AFA400C2DA48 /* TRMetalImageViewHarness.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TRMetalImageViewHarness.entitlements; sourceTree = "<group>"; };
-		5288FB1724E5B01300C2DA48 /* TRScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRScrollView.h; sourceTree = "<group>"; };
-		5288FB1A24E5B01300C2DA48 /* TRCenteringClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRCenteringClipView.m; sourceTree = "<group>"; };
-		5288FB1B24E5B01300C2DA48 /* TRScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRScrollView.m; sourceTree = "<group>"; };
-		5288FB1E24E5B01300C2DA48 /* TRCenteringClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRCenteringClipView.h; sourceTree = "<group>"; };
-		52B71EE7250698400094DA32 /* TRMTKImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMTKImageView.h; sourceTree = "<group>"; };
-		52B71EE8250698400094DA32 /* TRMTKImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMTKImageView.m; sourceTree = "<group>"; };
 		52B71EEA25069A2A0094DA32 /* MetalPerformanceShaders.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalPerformanceShaders.framework; path = System/Library/Frameworks/MetalPerformanceShaders.framework; sourceTree = SDKROOT; };
 		52B71EEB25069A2A0094DA32 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		52B71EEC25069A2A0094DA32 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
 		52BCE36024E5F95C00F49222 /* mark-basarab-y421kXlUOQk-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mark-basarab-y421kXlUOQk-unsplash.jpg"; sourceTree = "<group>"; };
 		52BCE36F24E5FBB600F49222 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		52F225342C4C0F3700208226 /* TRScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRScrollView.m; sourceTree = "<group>"; };
+		52F225352C4C0F3700208226 /* TRMTKImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMTKImageView.m; sourceTree = "<group>"; };
+		52F225362C4C0F3700208226 /* TRCenteringClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRCenteringClipView.m; sourceTree = "<group>"; };
+		52F225372C4C0F3700208226 /* TRScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRScrollView.h; sourceTree = "<group>"; };
+		52F225382C4C0F3700208226 /* TRCenteringClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRCenteringClipView.h; sourceTree = "<group>"; };
+		52F225392C4C0F3700208226 /* TRMTKImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMTKImageView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,26 +87,13 @@
 				5288FB0624E5AFA100C2DA48 /* ViewController.m */,
 				5288FB0824E5AFA400C2DA48 /* Assets.xcassets */,
 				5288FB0A24E5AFA400C2DA48 /* Main.storyboard */,
+				52F225332C4C0F3700208226 /* Tinrocket */,
 				52BCE35E24E5F95C00F49222 /* Data */,
-				5288FB1624E5B01300C2DA48 /* Tinrocket */,
 				5288FB0D24E5AFA400C2DA48 /* Info.plist */,
 				5288FB0E24E5AFA400C2DA48 /* main.m */,
 				5288FB1024E5AFA400C2DA48 /* TRMetalImageViewHarness.entitlements */,
 			);
 			path = TRMetalImageViewHarness;
-			sourceTree = "<group>";
-		};
-		5288FB1624E5B01300C2DA48 /* Tinrocket */ = {
-			isa = PBXGroup;
-			children = (
-				5288FB1E24E5B01300C2DA48 /* TRCenteringClipView.h */,
-				5288FB1A24E5B01300C2DA48 /* TRCenteringClipView.m */,
-				5288FB1724E5B01300C2DA48 /* TRScrollView.h */,
-				5288FB1B24E5B01300C2DA48 /* TRScrollView.m */,
-				52B71EE7250698400094DA32 /* TRMTKImageView.h */,
-				52B71EE8250698400094DA32 /* TRMTKImageView.m */,
-			);
-			path = Tinrocket;
 			sourceTree = "<group>";
 		};
 		52BCE35E24E5F95C00F49222 /* Data */ = {
@@ -127,6 +114,19 @@
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
+		};
+		52F225332C4C0F3700208226 /* Tinrocket */ = {
+			isa = PBXGroup;
+			children = (
+				52F225342C4C0F3700208226 /* TRScrollView.m */,
+				52F225352C4C0F3700208226 /* TRMTKImageView.m */,
+				52F225362C4C0F3700208226 /* TRCenteringClipView.m */,
+				52F225372C4C0F3700208226 /* TRScrollView.h */,
+				52F225382C4C0F3700208226 /* TRCenteringClipView.h */,
+				52F225392C4C0F3700208226 /* TRMTKImageView.h */,
+			);
+			path = Tinrocket;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -198,11 +198,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5288FB1F24E5B01300C2DA48 /* TRCenteringClipView.m in Sources */,
 				5288FB0724E5AFA100C2DA48 /* ViewController.m in Sources */,
+				52F2253A2C4C0F3700208226 /* TRScrollView.m in Sources */,
 				5288FB0F24E5AFA400C2DA48 /* main.m in Sources */,
-				52B71EE9250698400094DA32 /* TRMTKImageView.m in Sources */,
-				5288FB2024E5B01300C2DA48 /* TRScrollView.m in Sources */,
+				52F2253B2C4C0F3700208226 /* TRMTKImageView.m in Sources */,
+				52F2253C2C4C0F3700208226 /* TRCenteringClipView.m in Sources */,
 				5288FB0424E5AFA100C2DA48 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,7 +341,7 @@
 				CODE_SIGN_ENTITLEMENTS = TRMetalImageViewHarness/TRMetalImageViewHarness.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4V3Q8928C7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = TRMetalImageViewHarness/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -360,7 +360,7 @@
 				CODE_SIGN_ENTITLEMENTS = TRMetalImageViewHarness/TRMetalImageViewHarness.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4V3Q8928C7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = TRMetalImageViewHarness/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
